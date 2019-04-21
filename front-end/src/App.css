@@ -1,0 +1,14 @@
+.App {
+ width: 100%;
+ background-color: #F3F3F3;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+@media (max-width: 650px){
+    .App{
+        flex-direction: column;
+    }
+}
+

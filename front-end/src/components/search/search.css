@@ -1,0 +1,38 @@
+.search-wrapper {
+    margin-top: 50px;
+}
+
+.search-bar{
+    background-color: #F3F3F3;
+    margin: 10px 1.5% 20px 0;
+    font-size: 1.6rem;
+    border: 1.3px solid #B1B1B1
+}
+
+.search-form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 650px) {
+    .search-form{
+    padding: 0 3%;
+    }
+    .sign-out {
+        margin: 0 3% 10px 0;
+    }
+
+}
+
+.sign-out {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1.7% 5px 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-out:hover{
+    color: #2BC1C4;
+}
